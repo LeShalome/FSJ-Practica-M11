@@ -1,0 +1,57 @@
+$mainFont:"Poppins", sans-serif;
+$logoFont:"Comfortaa", sans-serif;
+
+$lightGray: #F7F7F9;
+$white: #fff;
+$black: #000;
+$yellow: #FFBC42;
+$darkOlive: #25291C; 
+
+body {
+    p {
+        color: $darkOlive;
+    }
+    
+    font-family: $mainFont;
+    main{
+        width: 95%;
+        margin: auto;
+        img {
+            width: 18rem;
+        }
+    }
+    background-color: $lightGray;
+
+    .accordion-item{
+        .accordion-body{
+            margin: auto;
+        }
+    
+        img {
+            width: 10rem;
+        }
+    }
+    
+    
+}
+
+header{
+    margin-bottom: 2rem;
+    .container-fluid{
+        background-color: $white;
+    }
+}
+
+footer{
+    margin-top: 3rem;
+    
+    .container-fluid{
+        background-color: $yellow;
+    }
+    
+}
+
+.navbar-brand {
+    font-family: $logoFont;
+    font-weight: 800;
+}

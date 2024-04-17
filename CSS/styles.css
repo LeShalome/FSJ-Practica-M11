@@ -1,0 +1,39 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #F7F7F9;
+}
+body p {
+  color: #25291C;
+}
+body main {
+  width: 95%;
+  margin: auto;
+}
+body main img {
+  width: 18rem;
+}
+body .accordion-item .accordion-body {
+  margin: auto;
+}
+body .accordion-item img {
+  width: 10rem;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+header .container-fluid {
+  background-color: #fff;
+}
+
+footer {
+  margin-top: 3rem;
+}
+footer .container-fluid {
+  background-color: #FFBC42;
+}
+
+.navbar-brand {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 800;
+}/*# sourceMappingURL=styles.css.map */
